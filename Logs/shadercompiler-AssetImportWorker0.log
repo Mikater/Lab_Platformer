@@ -1,4 +1,4 @@
-Base path: 'C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data', plugins path 'C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data/PlaybackEngines'
+Base path: 'D:/Vallhala/2021.3.15f1/Editor/Data', plugins path 'D:/Vallhala/2021.3.15f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)

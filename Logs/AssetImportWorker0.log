@@ -15,9 +15,15 @@ D:/Lab/Web/Lab 1.1/Lab_Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 55591
 Successfully changed project path to: D:/Lab/Web/Lab 1.1/Lab_Platformer
 D:/Lab/Web/Lab 1.1/Lab_Platformer
+=======
+51329
+Successfully changed project path to: C:/Learn/WEB/Lab_Platformer
+C:/Learn/WEB/Lab_Platformer
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,17 +53,26 @@ D:/Lab/Web/Lab 1.1/Lab_Platformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [15536] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2932621338 [EditorId] 2932621338 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1F01EBD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [15536] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2932621338 [EditorId] 2932621338 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1F01EBD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 219.70 ms, found 4 plugins.
+=======
+Player connection [11968] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 3208078101 [EditorId] 3208078101 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T7T669P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11968] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 3208078101 [EditorId] 3208078101 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T7T669P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 637.12 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path D:/Vallhala/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Lab/Web/Lab 1.1/Lab_Platformer/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
+<<<<<<< Updated upstream
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce 940MX (ID=0x134d)
     Vendor:   NVIDIA
@@ -84,10 +99,37 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1338ms)
 		BeginReloadAssembly (137ms)
+=======
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     8095 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/MyProd/Unity_Games/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034903 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 354.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.626 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2628ms)
+		BeginReloadAssembly (263ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (1008ms)
 			LoadAssemblies (136ms)
@@ -103,18 +145,40 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (287ms)
 				ProcessInitializeOnLoadMethodAttributes (86ms)
+=======
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1934ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (1202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (211ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (354ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (244ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.011787 seconds.
+=======
+Registered in 0.022280 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Lab\Web\Lab 1.1\Lab_Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Lab\Web\Lab 1.1\Lab_Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 170.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -595,15 +659,58 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (137ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
+=======
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 292.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8012ms)
+		BeginReloadAssembly (733ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (187ms)
+		EndReloadAssembly (6732ms)
+			LoadAssemblies (675ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2987ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (203ms)
+			SetupLoadedEditorAssemblies (2529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (293ms)
+				BeforeProcessingInitializeOnLoad (465ms)
+				ProcessInitializeOnLoadAttributes (1428ms)
+				ProcessInitializeOnLoadMethodAttributes (264ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (28ms)
 Platform modules already initialized, skipping
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (195.4 KB). Loaded Objects now: 4585.
 Memory consumption went from 155.2 MB to 155.0 MB.
 Total: 14.132100 ms (FindLiveObjects: 0.544000 ms CreateObjectMapping: 0.926500 ms MarkObjects: 12.019000 ms  DeleteObjects: 0.639800 ms)
+=======
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.1 KB). Loaded Objects now: 4500.
+Memory consumption went from 150.8 MB to 150.6 MB.
+Total: 10.230200 ms (FindLiveObjects: 0.711800 ms CreateObjectMapping: 0.847600 ms MarkObjects: 8.370000 ms  DeleteObjects: 0.298300 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -616,14 +723,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.011057 seconds.
+=======
+Received Import Request.
+  Time since last request: 637981.450192 seconds.
+  path: Assets/Scenes/Mika_lvl_dsgn 1.unity
+  artifactKey: Guid(a05deff79f3ba93498d6d8a49ce44ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mika_lvl_dsgn 1.unity using Guid(a05deff79f3ba93498d6d8a49ce44ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f009732eea96ebe8d84aebd8ea94d') in 0.033251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.262352 seconds.
+  path: Assets/Hero.prefab
+  artifactKey: Guid(21367546e66d3e84598aafb352b44f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero.prefab using Guid(21367546e66d3e84598aafb352b44f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af0150db9a6e9e2396719ec950b13f7') in 0.439990 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019724 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Lab\Web\Lab 1.1\Lab_Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Lab\Web\Lab 1.1\Lab_Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1300,6 +1426,46 @@ Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (195.5 KB). Loaded Objects now: 4621.
 Memory consumption went from 155.4 MB to 155.2 MB.
 Total: 28.445100 ms (FindLiveObjects: 2.133100 ms CreateObjectMapping: 5.505200 ms MarkObjects: 19.378100 ms  DeleteObjects: 1.426400 ms)
+=======
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6685ms)
+		BeginReloadAssembly (379ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (5462ms)
+			LoadAssemblies (400ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1943ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (262ms)
+			SetupLoadedEditorAssemblies (2265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (127ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (390ms)
+				ProcessInitializeOnLoadAttributes (1476ms)
+				ProcessInitializeOnLoadMethodAttributes (225ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (91ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.4 KB). Loaded Objects now: 4511.
+Memory consumption went from 155.2 MB to 155.0 MB.
+Total: 20.608400 ms (FindLiveObjects: 1.082600 ms CreateObjectMapping: 2.639300 ms MarkObjects: 15.931900 ms  DeleteObjects: 0.951400 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1311,6 +1477,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream
 ========================================================================
 Received Import Request.
   Time since last request: 3085.394643 seconds.
@@ -2583,3 +2750,5 @@ Received Import Request.
   path: Assets/Anim/Enemie_Shooter_Shoot/Enemie_Shooter_Shoot00018.png
   artifactKey: Guid(e66883efc2b534e49844de4ba98a43ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Anim/Enemie_Shooter_Shoot/Enemie_Shooter_Shoot00018.png using Guid(e66883efc2b534e49844de4ba98a43ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f84024111882cdeb85552984d0d62a3') in 0.150684 seconds 
+=======
+>>>>>>> Stashed changes

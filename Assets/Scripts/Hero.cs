@@ -6,14 +6,12 @@ public class Hero : MonoBehaviour
 {
 	[SerializeField] private float speed = 50f;
 	[SerializeField] private int lives = 5;
-	[SerializeField] private float  jumpForce = 15f; 
-	
+	[SerializeField] private float  jumpForce = 15f;
+    	
 	private bool isGrounded = false;
 
 	private Rigidbody2D rd;
 	private SpriteRenderer sprite;
-
-
 
 	private void Awake()
 	{
@@ -46,5 +44,13 @@ public class Hero : MonoBehaviour
 		rd.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
 	}
 
-	
+	public void RecountHP(int deltaHp)
+	{
+		lives += deltaHp;
+		print(lives);
+		if (lives <= 0)
+		{
+			print("—мерть."); //зам≥сть пр≥нта, зм≥на сцени)
+		}
+	}
 }

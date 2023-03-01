@@ -11,27 +11,42 @@ public class Hero : MonoBehaviour
 	private bool isGrounded = false;
 
 	private Rigidbody2D rd;
+  	private Animator anim;
 	private SpriteRenderer sprite;
-
+	
+	
 	private void Awake()
 	{
 		rd = GetComponent<Rigidbody2D>();
+    		anim = GetComponent<Animator>();
 		sprite = GetComponentInChildren<SpriteRenderer>();
 	}
 
 
 	private void Update()
 	{
+
 		if (Input.GetButton("Horizontal"))
 			Run();
 
 		if (Input.GetButtonDown("Jump"))
 			Jump();
-	}
+
+    		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+    			{
+      				anim.SetBool("run", true);
+    			}  
+    			else 
+    			{
+     			 anim.SetBool("run", false);
+    			}
+ 	 }
+	
 
 
 	private void Run()
 	{
+
 		Vector3 dir = transform.right * Input.GetAxis("Horizontal");
 
 		transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
@@ -41,6 +56,7 @@ public class Hero : MonoBehaviour
 
 	private void Jump()
 	{
+		
 		rd.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
 	}
 
@@ -53,4 +69,5 @@ public class Hero : MonoBehaviour
 			print("—мерть."); //зам≥сть пр≥нта, зм≥на сцени)
 		}
 	}
+
 }
